@@ -8,23 +8,28 @@
 
 :root {
     --primary-color: #FF7539;
+    --secundary-color: #FFE3D7;
     --primary-font: 'Quicksand', sans-serif;
     --font-color-dark: #3A3A3A;
+    --font-color-dark-2: #1A1A1A;
     
         
 }
 
-
+body {
+    width: 100%;
+}
 
 header {
-    margin: auto;
     max-width: 1080px;
+    margin: 0 auto;
+    display: block;
+    width: auto;
     font-family: var(--primary-font);
 }
 
 .barra-menu {
     background: #FFFFFF;
-    width: auto;
     height: 80px;
     margin-bottom: 105px;
     display: flex;
@@ -89,6 +94,7 @@ header {
    
 }
 
+
 .section-2-gato-massagista {
     width: 650px;
     border: 5px solid #FF7539;
@@ -122,4 +128,75 @@ header {
     font-size: 24px;
     line-height: 30px;
     color: var(--font-color-dark);
+    margin-bottom: 65px;
+}
+
+.buttom-argendar-section {
+    background-color: var(--primary-color);
+    width: 243px;
+    height: 63px;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 600;
+    color: var(--font-color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.section-1-paragrafo-2 {
+    color: var(--font-color-dark);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 200px;
+}
+
+.header-conteudo-secundario {
+    background-color: var(--secundary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-conteudo-secundario-h4 {
+    margin-top: 88px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 32px;
+}
+
+.header-conteudo-secundario-h2 {
+    color: var(--font-color-dark-2);
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 150px;
+    margin-bottom: 56px;
+}
+
+.header-conteudo-secundario-avaliation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-conteudo-secundario-paragrafo {
+    font-size: 16px;
+    color: #4D4D4D;
+    font-weight: 500;
+
+}
+
+.header-conteudo-secundario-div-estrelas img{
+   
+    gap: 30px;
 }
