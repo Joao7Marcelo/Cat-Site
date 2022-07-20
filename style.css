@@ -162,6 +162,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 .header-conteudo-secundario-h4 {
@@ -196,7 +197,13 @@ header {
 
 }
 
-.header-conteudo-secundario-div-estrelas img{
-   
-    gap: 30px;
+.header-conteudo-secundario-div-estrelas {
+    display: flex;
+    gap: 10px;
+}
+
+.header-conteudo-secundario-div-estrela-e-paragrafo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
