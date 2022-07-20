@@ -14,10 +14,19 @@
         
 }
 
+
+
+header {
+    margin: auto;
+    max-width: 1080px;
+    font-family: var(--primary-font);
+}
+
 .barra-menu {
     background: #FFFFFF;
-    width: 100%;
+    width: auto;
     height: 80px;
+    margin-bottom: 105px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -71,4 +80,46 @@
 
 .patinha-img {
     width: 25px;
+}
+
+.header-conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    gap: 68px;
+   
+}
+
+.section-2-gato-massagista {
+    width: 650px;
+    border: 5px solid #FF7539;
+    border-radius: 0px 0px 60px 60px;
+    
+}
+
+
+
+.section-1-h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--font-color-dark);
+    margin-bottom: 65px;
+}
+
+.section-1-h2 {
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: var(--font-color-dark);
+    margin-bottom: 65px;
+}
+
+.section-1-paragrafo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--font-color-dark);
 }
