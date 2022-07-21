@@ -33,6 +33,7 @@ header {
     display: block;
     width: auto;
     font-family: var(--primary-font);
+    padding-bottom: 20px;
 }
 
 .barra-menu {
@@ -227,9 +228,54 @@ header {
     gap: 5px;
 }
 
+.perfil-dos-avaliadores {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    width: 100%;
+    grid-gap: 20px;
+}
+
 .box-perfil-avaliator {
-    width: 70%;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
     background-color: #FFFFFF;
+}
+
+.box-perfil-avaliator h2 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.perfil-avaliacao {
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+}
+
+.perfil-avaliacao-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.perfil-avaliacao-info h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4D4D4D;
+}
+.perfil-avaliacao-info p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #4D4D4D;
 }
 
 @media (max-width: 1079px) {
@@ -279,9 +325,9 @@ header {
 
     .buttom-argendar {
         background-color: var(--primary-color);
-        width: 10rem;
+        width: 1,7rem;
         height: 4rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -295,5 +341,11 @@ header {
     .header-conteudo-secundario-avaliation {
         flex-direction: column;
         text-align: center;
+    }
+}
+
+@media (max-width:350px) {
+    .section-1-h2 {
+        font-size: 4rem;
     }
 }
