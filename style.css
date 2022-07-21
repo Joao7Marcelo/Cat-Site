@@ -16,11 +16,12 @@
         
 }
 
-body {
-    width: 100%;
+html {
+    font-size: 62.5%;
 }
 
 header {
+    width: 90%;
     max-width: 1080px;
     margin: 0 auto;
     display: block;
@@ -30,8 +31,8 @@ header {
 
 .barra-menu {
     background: #FFFFFF;
-    height: 80px;
-    margin-bottom: 105px;
+    height: 8rem;
+    margin-bottom: 10.5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -47,7 +48,7 @@ header {
     color: var(--primary-color);
     font-family: var(--primary-font);
     font-weight: 700;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .barra-menu-h3 {
@@ -72,7 +73,7 @@ header {
     height: 46px;
     border: none;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
@@ -88,6 +89,8 @@ header {
 }
 
 .header-conteudo-principal {
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     gap: 68px;
@@ -107,7 +110,7 @@ header {
 .section-1-h3 {
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: var(--font-color-dark);
     margin-bottom: 65px;
 }
@@ -116,8 +119,8 @@ header {
     
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
-    line-height: 65px;
+    font-size: 5.2rem;
+    line-height: 6.5rem;
     color: var(--font-color-dark);
     margin-bottom: 65px;
 }
@@ -125,8 +128,8 @@ header {
 .section-1-paragrafo {
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 2.4rem;
+    line-height: 3rem;
     color: var(--font-color-dark);
     margin-bottom: 65px;
 }
@@ -137,7 +140,7 @@ header {
     height: 63px;
     border: none;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 600;
@@ -153,7 +156,7 @@ header {
     color: var(--font-color-dark);
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 2rem;
     margin-bottom: 200px;
 }
 
@@ -167,7 +170,7 @@ header {
 
 .header-conteudo-secundario-h4 {
     margin-top: 88px;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
     color: var(--primary-color);
     margin-bottom: 32px;
@@ -175,8 +178,8 @@ header {
 
 .header-conteudo-secundario-h2 {
     color: var(--font-color-dark-2);
-    font-size: 38px;
-    line-height: 60px;
+    font-size: 3.8rem;
+    line-height: 6rem;
     font-weight: 700;
     text-align: center;
     margin: 0 150px;
@@ -191,7 +194,7 @@ header {
 }
 
 .header-conteudo-secundario-paragrafo {
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #4D4D4D;
     font-weight: 500;
 
@@ -206,4 +209,28 @@ header {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+@media (max-width: 1079px) {
+    .header-conteudo-principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .buttom-argendar-section {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .section-1-paragrafo-2 {
+        margin-bottom: 20px;
+    }
+
+    .section-2-gato-massagista {
+        width: 90%;
+    }
+} 
+
+@media (max-width:700px) {
+    
 }
