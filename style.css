@@ -69,8 +69,8 @@ header {
 
 .buttom-argendar {
     background-color: var(--primary-color);
-    width: 172px;
-    height: 46px;
+    width: 17.2rem;
+    height: 4.6rem;
     border: none;
     border-radius: 10px;
     font-size: 1.6rem;
@@ -187,6 +187,7 @@ header {
 }
 
 .header-conteudo-secundario-avaliation {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,18 +220,34 @@ header {
 
     .buttom-argendar-section {
         margin: auto;
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
     }
 
     .section-1-paragrafo-2 {
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
 
     .section-2-gato-massagista {
         width: 90%;
+        margin-bottom: 3rem;
     }
 } 
 
 @media (max-width:700px) {
-    
+    .barra-menu-textes {
+        display: none;
+    }
+}
+
+@media (max-width:650px) {
+    .header-conteudo-secundario {
+        text-align: center;
+    }
+}
+
+@media (max-width:530px) {
+    .header-conteudo-secundario-avaliation {
+        flex-direction: column;
+        text-align: center;
+    }
 }
