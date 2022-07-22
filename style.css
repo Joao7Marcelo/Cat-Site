@@ -324,10 +324,12 @@ header {
     }
 
     .buttom-argendar {
-        background-color: var(--primary-color);
-        width: 1,7rem;
-        height: 4rem;
-        font-size: 1.5rem;
+       display: none;
+    }
+
+    .barra-menu {
+        justify-content: space-between;
+        padding: 15px;
     }
 }
 
