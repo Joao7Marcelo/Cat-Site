@@ -234,6 +234,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     width: 100%;
     grid-gap: 20px;
+    margin-bottom: 140px;
 }
 
 .box-perfil-avaliator {
@@ -255,28 +256,86 @@ header {
     display: flex;
     align-items: center;
     
-    gap: 30px;
+    gap: 3rem;
 }
 
 .perfil-avaliacao-info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
     margin-bottom: 100px;
     text-align: center;
     margin: auto;
 }
 
 .perfil-avaliacao-info h3 {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     color: #4D4D4D;
 }
 .perfil-avaliacao-info p {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 700;
     color: #4D4D4D;
 }
+
+.header-possibilidades {
+    width: 100%;
+    text-align: center;
+  
+}
+
+.header-possibilidades h3{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+
+}
+
+.header-possibilidades h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #000;
+    margin-bottom: 1.7rem;
+}
+
+.header-possibilidades h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--font-color-dark);
+    margin-bottom: 8rem;
+}
+
+
+.header-possibilidades-diversidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 3rem;
+    
+}
+
+.header-possibilidades-box-gatos {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.header-possibilidades-box-gatos h4 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-possibilidades-box-gatos p {
+    
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+
 
 @media (max-width: 1079px) {
     .header-conteudo-principal {
