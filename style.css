@@ -314,7 +314,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 3rem;
-    
+    margin-bottom: 10rem;
 }
 
 .header-possibilidades-box-gatos {
@@ -335,7 +335,61 @@ header {
     font-size: 1.3rem;
 }
 
+.saude-dos-animais-consultorios {
+    background: var(--secundary-color);
+    padding: 6rem;
+}
 
+.saude-dos-animais-consultorios-area1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13rem;
+    margin-bottom: 8rem;
+}
+
+.saude-dos-animais-consultorios-area1-textos {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.saude-dos-animais-consultorios-area1-textos h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+.saude-dos-animais-consultorios-area1-textos h2 {
+    font-weight: 700;
+    font-size: 3.8rem;
+    color: var(--font-color-dark-2);
+    margin-bottom: 2.5rem;
+}
+
+.saude-dos-animais-consultorios-area1-textos h5 {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.header-saude-dos-animais-vantagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-saude-dos-animais-vantagens h3{
+    padding: 2rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7rem;
+    width: 70%;
+}
 
 @media (max-width: 1079px) {
     .header-conteudo-principal {
@@ -357,6 +411,38 @@ header {
         margin-bottom: 3rem;
     }
 } 
+
+@media (max-width:980px) {
+    .saude-dos-animais-consultorios-area1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .saude-dos-animais-veterinaria {
+        width: 100%;
+    }
+
+    .saude-dos-animais-consultorios-area1-textos {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .header-saude-dos-animais-vantagens {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    .header-saude-dos-animais-vantagens h3 {
+        width: 100%;
+    }
+
+    .saude-dos-animais-consultorios-area1-textos h5 {
+        margin-bottom: 2rem;
+    }
+}
 
 @media (max-width:700px) {
     .barra-menu-textes {
