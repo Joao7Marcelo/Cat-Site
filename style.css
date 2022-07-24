@@ -12,6 +12,7 @@
     --primary-font: 'Quicksand', sans-serif;
     --font-color-dark: #3A3A3A;
     --font-color-dark-2: #1A1A1A;
+    --color-with: #fff;
     
         
 }
@@ -391,6 +392,126 @@ header {
     width: 70%;
 }
 
+.header-cartao-de-presente {
+    width: 100%;
+    background-size: 100%;
+    background-image: url(assets/backgrond-img/background-section2-dos-animais.svg);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.cartao-de-presente-container {
+    text-align: center;
+    width: 80%;
+}
+
+.cartao-de-presente-container h2 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin-top: 8rem;
+    margin-bottom: 2.5rem;
+}
+
+.cartao-de-presente-container p {
+    font-weight: 550;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    margin-bottom: 2.5rem;
+}
+
+.box-gift-cards {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem;
+    overflow-x: scroll;
+}
+
+.gift-cards {
+    width: 51%;
+    margin: auto;
+    margin-top: 6rem;
+    background: #FFFFFF;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.gift-cards h3 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.gift-cards h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.gift-cards p{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+
+.gift-cards  a button {
+    padding: 2rem;
+    border: none;
+    border-radius: 1.4rem;
+    background: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.gift-cards-vip {
+    width: 50%;
+    margin: auto;
+    margin-top: 6rem;
+    background: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.gift-cards-vip h3 {
+    color: var(--color-with);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.gift-cards-vip h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-with);
+}
+
+.gift-cards-vip p{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+
+.gift-cards-vip a button {
+    padding: 2rem;
+    border: none;
+    border-radius: 1.4rem;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
 @media (max-width: 1079px) {
     .header-conteudo-principal {
         flex-direction: column;
@@ -442,6 +563,12 @@ header {
     .saude-dos-animais-consultorios-area1-textos h5 {
         margin-bottom: 2rem;
     }
+
+    .box-gift-cards {
+        overflow-y: scroll;
+    }
+
+
 }
 
 @media (max-width:700px) {
